@@ -108,8 +108,8 @@ footer {
 #copyright {
     width: 200px;
     margin: 0 auto;
-    font-family: italic;
-    padding: 35px;
+    font-style: italic;
+    padding-top: 35px;
 }
 .tableRow {
     display: table-row;
