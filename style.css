@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img {
+    width: 300px;
+    float: left;
+}
+nav {
+    padding-top: 61px;
+}
+#links {
+    background-color: #037dbe;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+}
+#links a:hover {
+    color: #111111;
+}
+main {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mainContentContainer {
+    margin-right: 22%;
+}
+#mainContentImage {
+    width: 100%;
+}
+aside {
+    float: right;
+    width: 20%;
+    border: 1px dotted #4d4d4d;
+    background-color: #eeeeee;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+aside a {
+    text-decoration: none;
+    color: #000000;
+}
+#sideBarHeading {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#sideBarContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 5px;
+    display: table;
+    width: 90%;
+}
+.featuredImage {
+    max-width: 100%;
+}
+.bold {
+    font-weight: bold;
+}
+footer {
+    background-color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 80%;
+    height: 50px;
+    color: #4d4d4d;
+    clear: both;
+}
+#socialMediaLinks {
+    float: left;
+    padding-left: 5%;
+}
+#socialMediaLinks img {
+    width: 40px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+#footerNav a {
+    text-decoration: none;
+    padding-right: 5%;
+    float: right;
+    font-size: 120%;
+    color: #037dbe;
+    padding-top: 17px;
+}
+#footerNav a:hover {
+    color: #000000;
+}
+#copyright {
+    width: 200px;
+    margin: 0 auto;
+    font-family: italic;
+    padding: 35px;
+}
