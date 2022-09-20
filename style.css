@@ -203,23 +203,23 @@ footer {
     flex: 10%;
 }
 .cartTitle {
-    width: 20%;
+    flex: 20%;
     font-weight: bold;
     padding-left: 10px;
 }
 .cartDescription {
-    width: 50%;
+    flex: 50%;
     padding-left: 10px;
 }
 .cartQuantity {
-    width: 10%;
+    flex: 10%;
 }
 .cartQuantity input {
     margin-top: 17px;
     width: 50px;
 }
 .cartPrice {
-    width: 10%;
+    flex: 10%;
     padding-left: 10px;
 }
 .removeMargins {
