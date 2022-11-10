@@ -1,6 +1,6 @@
 const imagePath = "images/shop/thumbnails/";
 
-products = [
+const products = [
     {
         id: 1,
         image: imagePath + "ClownUmbrella_Thumb.jpg",
@@ -66,4 +66,4 @@ products = [
         price: 18.95
     },
 
-]
+];
