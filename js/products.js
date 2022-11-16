@@ -7,7 +7,7 @@ const products = [
         name: "Clown Umbrella",
         description: "A porcelain figurine of a clown holding an umbrella and riding a unicycle",
         quantity: 1,
-        price: 29.99
+        price: 29.95
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ const products = [
         name: "Mini Cactus",
         description: "A miniature cactus in a pink vase",
         quantity: 1,
-        price: 29.99
+        price: 12.99
     },
     {
         id: 5,
