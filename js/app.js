@@ -2,7 +2,7 @@ let cart = [
     
 ];
 
-const sideBarContainer = document.querySelector("#sideBarContainer");
+let sideBarContainer = document.querySelector("#sideBarContainer");
 
 function clearStorageAndCart(){
     cart = [];
@@ -31,6 +31,7 @@ function removeFromCart(){
             }
             if(typeof displayCartProducts === "function"){
                 displayCartProducts();
+                displayOrderSummary();
             }
             if(cart.length == 0){
                 localStorage.clear();
@@ -49,6 +50,7 @@ function clearCart(){
         }
         if(typeof displayCartProducts === "function"){
             displayCartProducts();
+            displayOrderSummary();
         }
     }, false);
 }
