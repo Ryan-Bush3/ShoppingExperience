@@ -228,3 +228,7 @@ footer {
 .textAlignRight {
     text-align: right;
 }
+#emptyCart{
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+}
