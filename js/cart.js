@@ -27,7 +27,7 @@ displayCartProducts();
 let subtotal;
 let shipping;
 let tax;
-let to
+let total;
 
 function calculateOrderSummary(){
     subtotal = 0;
