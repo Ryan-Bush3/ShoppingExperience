@@ -18,8 +18,13 @@ function saveToLocalStorage(){
     var cartButton = document.getElementsByClassName("cartButton");
     for (let i = 0; i < cartButton.length; i++){
         cartButton[i].onclick = () => {
-             let selectedProduct = products.find((product) => product.id == cartButton[i].id);
-             cart.push(selectedProduct);
+            let selectedProduct = products.find((product) => product.id == cartButton[i].id);
+            let cartItemSearch = cart.find((cartItem) => cartItem.id == selectedProduct.id);
+            if(cartItemSearch){
+                cartItemSearch.quantity++;
+            } else{
+                cart.push(selectedProduct);
+            }
              localStorage.setItem("CART", JSON.stringify(cart) );
              displayCart();
         }
@@ -42,12 +47,13 @@ function displayCart(){
     </div>
     <div class="tableRow">
         <div class="tableCell borderBottom">
-
+            <input class="quantityNumberInput" id="${cartItem.id}" type="number" value="${cartItem.quantity}" min="1" max="5">
         </div>
         <a class="tableCell removeLink borderBottom" id=${cartItem.id} href="#">Remove</a>
     </div>`
     });
     removeFromCart();
+    updateQuantity();
 }
 displayCart();
 
