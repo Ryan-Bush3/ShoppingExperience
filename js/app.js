@@ -73,3 +73,17 @@ function updateQuantity(){
         }, false);
     }
 }
+
+$(document).ready(function(){
+    let sidebarOrigin = $('aside').offset();
+    $(window).scroll(function(){
+        let scrollPosition = $('html').scrollTop();
+        if(sidebarOrigin.top < scrollPosition){
+            $('aside').css('width', '17.9%');
+            $('aside').addClass('sticky');
+        } else{
+            $('aside').css('width', '20%');
+            $('aside').removeClass('sticky');
+        }
+    });
+});
