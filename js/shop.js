@@ -54,6 +54,7 @@ $('.next').click(function(){
     }
     paginate();
     saveToLocalStorage();
+    fadeButtons();
 });
 
 $('.previous').click(function(){
@@ -62,6 +63,7 @@ $('.previous').click(function(){
     }
     paginate();
     saveToLocalStorage();
+    fadeButtons();
 });
 
 function saveToLocalStorage(){
